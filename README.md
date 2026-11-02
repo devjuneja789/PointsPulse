@@ -122,8 +122,3 @@ npm run build
 # Start production server
 npm start
 ```
-
----
-
-
-4. Render builds via `npm ci && npm run build` and starts via `npm start`.
