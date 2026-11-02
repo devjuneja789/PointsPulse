@@ -125,15 +125,5 @@ npm start
 
 ---
 
-## 6. Render Deployment
 
-The repository includes a ready-to-deploy [`render.yaml`](render.yaml) blueprint:
-1. Connect this GitHub repository to Render.
-2. Select **New > Blueprint** and choose the repo.
-3. Configure environment variables in the Render Dashboard:
-   - `NODE_ENV`: `production`
-   - `LLM_MODE`: `live` (or `mock` for deterministic test mode)
-   - `LLM_API_KEY`: `<Your-OpenRouter-Key>`
-   - `LLM_MODEL`: `cohere/north-mini-code:free`
-   - `LLM_DAILY_LIMIT`: `40`
 4. Render builds via `npm ci && npm run build` and starts via `npm start`.
