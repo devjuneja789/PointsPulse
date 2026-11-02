@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: pointspulse
+    env: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: LLM_MODE
+        value: live
+      - key: LLM_BASE_URL
+        value: https://openrouter.ai/api/v1
+      - key: LLM_MODEL
+        value: cohere/north-mini-code:free
+      - key: LLM_DAILY_LIMIT
+        value: "40"
+      - key: LLM_MIN_INTERVAL_MS
+        value: "4000"
+      - key: LLM_API_KEY
+        sync: false
+      - key: APP_URL
+        sync: false
