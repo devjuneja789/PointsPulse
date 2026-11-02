@@ -1,0 +1,129 @@
+{
+  "teamId": "MI",
+  "teamName": "Mumbai Indians",
+  "season": "IPL 2024",
+  "source": "Official IPL T20 Squad List (iplt20.com)",
+  "retrievedOn": "2026-11-02",
+  "creditsDisclaimer": "Credits are indicative fantasy benchmarks only",
+  "players": [
+    {
+      "id": "mi_rohit",
+      "name": "Rohit Sharma",
+      "team": "MI",
+      "role": "BAT",
+      "battingOrder": 1,
+      "bowlingQuota": 0,
+      "credits": 9.0
+    },
+    {
+      "id": "mi_ishan",
+      "name": "Ishan Kishan",
+      "team": "MI",
+      "role": "WK",
+      "battingOrder": 2,
+      "bowlingQuota": 0,
+      "credits": 8.5
+    },
+    {
+      "id": "mi_sky",
+      "name": "Suryakumar Yadav",
+      "team": "MI",
+      "role": "BAT",
+      "battingOrder": 3,
+      "bowlingQuota": 0,
+      "credits": 9.5
+    },
+    {
+      "id": "mi_tilak",
+      "name": "Tilak Varma",
+      "team": "MI",
+      "role": "BAT",
+      "battingOrder": 4,
+      "bowlingQuota": 0,
+      "credits": 8.5
+    },
+    {
+      "id": "mi_hardik",
+      "name": "Hardik Pandya",
+      "team": "MI",
+      "role": "AR",
+      "battingOrder": 5,
+      "bowlingQuota": 4,
+      "credits": 9.0
+    },
+    {
+      "id": "mi_tim",
+      "name": "Tim David",
+      "team": "MI",
+      "role": "BAT",
+      "battingOrder": 6,
+      "bowlingQuota": 0,
+      "credits": 8.0
+    },
+    {
+      "id": "mi_shepherd",
+      "name": "Romario Shepherd",
+      "team": "MI",
+      "role": "AR",
+      "battingOrder": 7,
+      "bowlingQuota": 3,
+      "credits": 7.5
+    },
+    {
+      "id": "mi_chawla",
+      "name": "Piyush Chawla",
+      "team": "MI",
+      "role": "BOWL",
+      "battingOrder": 8,
+      "bowlingQuota": 4,
+      "credits": 8.0
+    },
+    {
+      "id": "mi_bumrah",
+      "name": "Jasprit Bumrah",
+      "team": "MI",
+      "role": "BOWL",
+      "battingOrder": 9,
+      "bowlingQuota": 4,
+      "credits": 9.5
+    },
+    {
+      "id": "mi_coetzee",
+      "name": "Gerald Coetzee",
+      "team": "MI",
+      "role": "BOWL",
+      "battingOrder": 10,
+      "bowlingQuota": 4,
+      "credits": 8.5
+    },
+    {
+      "id": "mi_thushara",
+      "name": "Nuwan Thushara",
+      "team": "MI",
+      "role": "BOWL",
+      "battingOrder": 11,
+      "bowlingQuota": 4,
+      "credits": 7.5
+    },
+    {
+      "id": "mi_wadhera",
+      "name": "Nehal Wadhera",
+      "team": "MI",
+      "role": "BAT",
+      "battingOrder": 5,
+      "bowlingQuota": 0,
+      "credits": 7.5,
+      "isImpactSub": true
+    },
+    {
+      "id": "mi_brevis",
+      "name": "Dewald Brevis",
+      "team": "MI",
+      "role": "BAT",
+      "battingOrder": 4,
+      "bowlingQuota": 0,
+      "credits": 7.5,
+      "isBenched": true
+    }
+  ]
+}

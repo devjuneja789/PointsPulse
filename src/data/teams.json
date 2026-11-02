@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "disclaimer": "Simulated match events. Real IPL squad names used for demonstration purposes only. Not affiliated with IPL, BCCI, or franchises.",
+    "matchType": "SIMULATED",
+    "season": "IPL 2024"
+  },
+  "teams": {
+    "MI": {
+      "id": "MI",
+      "name": "Mumbai Indians",
+      "shortName": "MUM",
+      "primaryColor": "#004BA0",
+      "accentColor": "#D1AB3E"
+    },
+    "CSK": {
+      "id": "CSK",
+      "name": "Chennai Super Kings",
+      "shortName": "CHE",
+      "primaryColor": "#FDB913",
+      "accentColor": "#0081E9"
+    }
+  }
+}

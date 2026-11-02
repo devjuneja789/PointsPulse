@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "format": "T20",
+    "rulesVersion": "2026.1-t20",
+    "source": "Dream11 Official Help Centre - Fantasy Cricket Points System (T20)",
+    "verifiedOn": "2026-11-02",
+    "notes": "Verified against official Dream11 T20 scoring table. Milestone bonuses are mutually exclusive (only highest tier applies). Strike-rate and economy bonuses require minimum ball/over thresholds."
+  },
+  "startingXI": 4,
+  "substitute": 4,
+  "batting": {
+    "run": 1,
+    "boundaryFourBonus": 1,
+    "sixBonus": 2,
+    "milestones": {
+      "30": 4,
+      "50": 8,
+      "100": 16
+    },
+    "duck": -2,
+    "duckAppliesTo": ["BAT", "WK", "AR"]
+  },
+  "bowling": {
+    "wicket": 25,
+    "bowledLbwBonus": 8,
+    "wicketHauls": {
+      "3": 4,
+      "4": 8,
+      "5": 16
+    },
+    "maidenOver": 12,
+    "dotBall": 0
+  },
+  "fielding": {
+    "catch": 8,
+    "threeCatchBonus": 4,
+    "stumping": 12,
+    "runOutDirect": 12,
+    "runOutIndirect": 6
+  },
+  "economy": {
+    "minOvers": 2,
+    "bands": [
+      { "min": 0, "max": 4.99, "points": 6 },
+      { "min": 5, "max": 5.99, "points": 4 },
+      { "min": 6, "max": 7.0, "points": 2 },
+      { "min": 7.01, "max": 9.99, "points": 0 },
+      { "min": 10.0, "max": 11.0, "points": -2 },
+      { "min": 11.01, "max": 12.0, "points": -4 },
+      { "min": 12.01, "max": 999.0, "points": -6 }
+    ]
+  },
+  "strikeRate": {
+    "minBalls": 10,
+    "appliesToNonBowlersOnly": true,
+    "bands": [
+      { "min": 170.01, "max": 9999.0, "points": 6 },
+      { "min": 150.01, "max": 170.0, "points": 4 },
+      { "min": 130.0, "max": 150.0, "points": 2 },
+      { "min": 70.01, "max": 129.99, "points": 0 },
+      { "min": 60.0, "max": 70.0, "points": -2 },
+      { "min": 50.0, "max": 59.99, "points": -4 },
+      { "min": 0.0, "max": 49.99, "points": -6 }
+    ]
+  },
+  "multipliers": {
+    "captain": 2.0,
+    "viceCaptain": 1.5
+  }
+}

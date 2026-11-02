@@ -1,0 +1,116 @@
+{
+  "scenarios": [
+    {
+      "id": 1,
+      "name": "Dot balls and singles early",
+      "script": "full-match",
+      "eventId": "fm_01",
+      "description": "Quiet baseline, no change to user fantasy points",
+      "expectedDelta": 0
+    },
+    {
+      "id": 2,
+      "name": "Boundary by a batter in the user's team",
+      "script": "full-match",
+      "eventId": "fm_02",
+      "description": "Rohit Sharma drives for four (+4 runs, +1 four bonus)",
+      "expectedDelta": 5
+    },
+    {
+      "id": 3,
+      "name": "Six by the Vice-Captain",
+      "script": "full-match",
+      "eventId": "fm_05",
+      "description": "Suryakumar Yadav hits six (+6 runs, +2 six bonus = 8 base x 1.5 VC)",
+      "expectedDelta": 12
+    },
+    {
+      "id": 4,
+      "name": "Batter reaches 30 / 50 milestone",
+      "script": "full-match",
+      "eventId": "fm_12",
+      "description": "Suryakumar Yadav completes 50 milestone (+8 bonus, net upgrade +4 base x 1.5 VC)",
+      "expectedDelta": 6
+    },
+    {
+      "id": 5,
+      "name": "Wicket (bowled) by Captain bowler",
+      "script": "full-match",
+      "eventId": "fm_20",
+      "description": "Jasprit Bumrah bowls Ruturaj Gaikwad (+25 wicket, +8 bowled = 33 base x 2 Captain)",
+      "expectedDelta": 66
+    },
+    {
+      "id": 6,
+      "name": "Wicket (caught), fielder on user's team",
+      "script": "full-match",
+      "eventId": "fm_08",
+      "description": "Pathirana (+25) wicket, Jadeja (+8) catch: both in user's 11",
+      "expectedDelta": 33
+    },
+    {
+      "id": 7,
+      "name": "Duck for a batter on the user's team",
+      "script": "full-match",
+      "eventId": "fm_07",
+      "description": "Ishan Kishan dismissed for 0 off 2 balls (duck penalty -2 pts)",
+      "expectedDelta": -2
+    },
+    {
+      "id": 8,
+      "name": "Run-out (direct hit)",
+      "script": "full-match",
+      "eventId": "fm_09",
+      "description": "Ravindra Jadeja direct hit run-out (+12 pts fielding)",
+      "expectedDelta": 12
+    },
+    {
+      "id": 9,
+      "name": "Expensive over for user's bowler",
+      "script": "full-match",
+      "eventId": "fm_11",
+      "description": "Tushar Deshpande concedes 14 runs, economy drops into penalty band (provisional)",
+      "expectedDelta": -2
+    },
+    {
+      "id": 10,
+      "name": "Maiden over",
+      "script": "full-match",
+      "eventId": "fm_24",
+      "description": "Jasprit Bumrah bowls wicket-maiden (+12 base x 2 Captain)",
+      "expectedDelta": 24
+    },
+    {
+      "id": 11,
+      "name": "Rain interruption, overs reduced",
+      "script": "full-match",
+      "eventId": "fm_14",
+      "description": "Match halted, overs reduced to 16. Banner displayed; risk flags updated",
+      "expectedDelta": 0
+    },
+    {
+      "id": 12,
+      "name": "Collapse: 3 wickets in 2 overs",
+      "script": "full-match",
+      "eventId": "fm_17",
+      "description": "3 wickets fall rapidly (fm_15, fm_16, fm_17), triggering cascade risk flags",
+      "expectedDelta": 4
+    },
+    {
+      "id": 13,
+      "name": "Player on user's team not in XI",
+      "script": "full-match",
+      "eventId": "fm_28",
+      "description": "Dewald Brevis on user's team is not playing (0 pts, NOT PLAYING chip)",
+      "expectedDelta": 0
+    },
+    {
+      "id": 14,
+      "name": "Event that doesn't affect user's team",
+      "script": "full-match",
+      "eventId": "fm_25",
+      "description": "Single taken by non-user batter off non-user bowler: 'No change to your team'",
+      "expectedDelta": 0
+    }
+  ]
+}

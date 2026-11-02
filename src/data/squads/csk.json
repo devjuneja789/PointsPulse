@@ -1,0 +1,129 @@
+{
+  "teamId": "CSK",
+  "teamName": "Chennai Super Kings",
+  "season": "IPL 2024",
+  "source": "Official IPL T20 Squad List (iplt20.com)",
+  "retrievedOn": "2026-11-02",
+  "creditsDisclaimer": "Credits are indicative fantasy benchmarks only",
+  "players": [
+    {
+      "id": "csk_ruturaj",
+      "name": "Ruturaj Gaikwad",
+      "team": "CSK",
+      "role": "BAT",
+      "battingOrder": 1,
+      "bowlingQuota": 0,
+      "credits": 9.5
+    },
+    {
+      "id": "csk_rachin",
+      "name": "Rachin Ravindra",
+      "team": "CSK",
+      "role": "AR",
+      "battingOrder": 2,
+      "bowlingQuota": 2,
+      "credits": 8.5
+    },
+    {
+      "id": "csk_rahane",
+      "name": "Ajinkya Rahane",
+      "team": "CSK",
+      "role": "BAT",
+      "battingOrder": 3,
+      "bowlingQuota": 0,
+      "credits": 8.0
+    },
+    {
+      "id": "csk_dube",
+      "name": "Shivam Dube",
+      "team": "CSK",
+      "role": "AR",
+      "battingOrder": 4,
+      "bowlingQuota": 1,
+      "credits": 9.0
+    },
+    {
+      "id": "csk_mitchell",
+      "name": "Daryl Mitchell",
+      "team": "CSK",
+      "role": "AR",
+      "battingOrder": 5,
+      "bowlingQuota": 2,
+      "credits": 8.5
+    },
+    {
+      "id": "csk_jadeja",
+      "name": "Ravindra Jadeja",
+      "team": "CSK",
+      "role": "AR",
+      "battingOrder": 6,
+      "bowlingQuota": 4,
+      "credits": 9.0
+    },
+    {
+      "id": "csk_dhoni",
+      "name": "MS Dhoni",
+      "team": "CSK",
+      "role": "WK",
+      "battingOrder": 7,
+      "bowlingQuota": 0,
+      "credits": 8.5
+    },
+    {
+      "id": "csk_shardul",
+      "name": "Shardul Thakur",
+      "team": "CSK",
+      "role": "BOWL",
+      "battingOrder": 8,
+      "bowlingQuota": 4,
+      "credits": 8.0
+    },
+    {
+      "id": "csk_tushar",
+      "name": "Tushar Deshpande",
+      "team": "CSK",
+      "role": "BOWL",
+      "battingOrder": 9,
+      "bowlingQuota": 4,
+      "credits": 8.0
+    },
+    {
+      "id": "csk_pathirana",
+      "name": "Matheesha Pathirana",
+      "team": "CSK",
+      "role": "BOWL",
+      "battingOrder": 10,
+      "bowlingQuota": 4,
+      "credits": 9.0
+    },
+    {
+      "id": "csk_mustafizur",
+      "name": "Mustafizur Rahman",
+      "team": "CSK",
+      "role": "BOWL",
+      "battingOrder": 11,
+      "bowlingQuota": 4,
+      "credits": 8.5
+    },
+    {
+      "id": "csk_rizvi",
+      "name": "Sameer Rizvi",
+      "team": "CSK",
+      "role": "BAT",
+      "battingOrder": 7,
+      "bowlingQuota": 0,
+      "credits": 7.0,
+      "isImpactSub": true
+    },
+    {
+      "id": "csk_chahar",
+      "name": "Deepak Chahar",
+      "team": "CSK",
+      "role": "BOWL",
+      "battingOrder": 8,
+      "bowlingQuota": 4,
+      "credits": 8.0,
+      "isBenched": true
+    }
+  ]
+}

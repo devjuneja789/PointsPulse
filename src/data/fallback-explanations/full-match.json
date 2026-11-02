@@ -1,0 +1,117 @@
+{
+  "scriptId": "full-match",
+  "explanations": {
+    "fm_01": {
+      "EN": "Tushar Deshpande bowls a dot ball to Rohit Sharma. No score change.",
+      "HI": "Tushar Deshpande ne Rohit Sharma ko dot ball dali. Points me koi badlav nahi."
+    },
+    "fm_02": {
+      "EN": "Rohit Sharma drives for FOUR (+4 runs, +1 boundary bonus = +5 pts for your team).",
+      "HI": "Rohit Sharma ne chauka mara (+4 runs, +1 boundary bonus = +5 pts aapki team ke liye)."
+    },
+    "fm_03": {
+      "EN": "Rohit Sharma is bowled by Tushar Deshpande (+25 wicket, +8 bowled = +33 pts for Tushar).",
+      "HI": "Tushar Deshpande ne Rohit Sharma ko bowled out kiya (+25 wicket, +8 bowled = +33 pts Tushar ko)."
+    },
+    "fm_04": {
+      "EN": "Suryakumar Yadav defends a dot ball. Score unchanged.",
+      "HI": "Suryakumar Yadav ne dot ball kheli. Points unchanged hain."
+    },
+    "fm_05": {
+      "EN": "Suryakumar Yadav hit a SIX (+6 runs, +2 six bonus = 8 base). With 1.5x Vice-Captain multiplier, that is +12 pts!",
+      "HI": "Suryakumar Yadav ne chhakka mara (+6 runs, +2 six bonus = 8 base). 1.5x Vice-Captain multiplier ke sath mile +12 pts!"
+    },
+    "fm_06": {
+      "EN": "Shardul Thakur bowls a dot ball to Ishan Kishan. No points change for your team.",
+      "HI": "Shardul Thakur ne Ishan Kishan ko dot ball dali. Aapki team ke points me koi change nahi."
+    },
+    "fm_07": {
+      "EN": "Ishan Kishan is out for 0 off 2 balls, triggering a -2 duck penalty. Ravindra Jadeja takes the catch (+8 pts).",
+      "HI": "Ishan Kishan 0 par out huye (-2 duck penalty). Ravindra Jadeja ne catch pakda (+8 pts)."
+    },
+    "fm_08": {
+      "EN": "Matheesha Pathirana takes a wicket (+25 pts) caught by Ravindra Jadeja (+8 pts). Both are in your team (+33 pts total)!",
+      "HI": "Matheesha Pathirana ne wicket liya (+25 pts) aur Ravindra Jadeja ne catch liya (+8 pts). Dono aapki team me hain (+33 pts)!"
+    },
+    "fm_09": {
+      "EN": "Ravindra Jadeja scores a direct hit run-out (+12 pts fielding bonus) against Hardik Pandya.",
+      "HI": "Ravindra Jadeja ne direct hit se Hardik Pandya ko run out kiya (+12 fielding points mile)."
+    },
+    "fm_10": {
+      "EN": "Suryakumar Yadav crosses 30 runs with a four (+4 milestone bonus). With 1.5x Vice-Captain multiplier, you get +6 pts!",
+      "HI": "Suryakumar Yadav ne 30 runs pure kiye (+4 milestone bonus). 1.5x Vice-Captain multiplier ke sath +6 pts mile!"
+    },
+    "fm_11": {
+      "EN": "Tushar Deshpande concedes 14 runs in the over. Economy rate crosses 11, giving a -2 pts provisional drag.",
+      "HI": "Tushar Deshpande ke over me 14 runs gaye. Economy rate 11 ke paar jaane se -2 pts provisional penalty lagi."
+    },
+    "fm_12": {
+      "EN": "Suryakumar Yadav reaches 50! Milestone upgrades from 30 (+4) to 50 (+8), adding +4 base x 1.5 VC = +6 pts!",
+      "HI": "Suryakumar Yadav ne 50 pura kiya! Milestone upgrade ho kar +8 hua, net +4 base x 1.5 VC = +6 pts jude!"
+    },
+    "fm_13": {
+      "EN": "Nehal Wadhera comes on as Impact Sub for Mumbai Indians (+4 pts starting bonus).",
+      "HI": "Nehal Wadhera Mumbai Indians ke Impact Sub bane (+4 points starting bonus mila)."
+    },
+    "fm_14": {
+      "EN": "Rain stoppage! Match reduced to 16 overs. Overs remaining for bowlers are adjusted.",
+      "HI": "Baarish ki vajah se match 16 overs ka hua. Bowlers ke bache huye overs kam ho gaye hain."
+    },
+    "fm_15": {
+      "EN": "Matheesha Pathirana bowls Nehal Wadhera (+25 wicket, +8 bowled bonus = +33 pts).",
+      "HI": "Matheesha Pathirana ne Nehal Wadhera ko bowled kiya (+25 wicket, +8 bowled = +33 pts)."
+    },
+    "fm_16": {
+      "EN": "Pathirana strikes again with LBW (+33 pts) and claims his 3-wicket haul bonus (+4 pts = +37 pts)!",
+      "HI": "Pathirana ne LBW wicket liya (+33 pts) aur 3-wicket haul bonus hasil kiya (+4 pts = +37 pts)!"
+    },
+    "fm_17": {
+      "EN": "Gerald Coetzee is caught by Ravindra Jadeja. That is Jadeja's 3rd catch, triggering the 3-Catch Bonus (+4 pts)!",
+      "HI": "Ravindra Jadeja ne match ka teesra catch pakda, jisse unhe 3-Catch Bonus (+4 pts) mila!"
+    },
+    "fm_18": {
+      "EN": "Innings break: Mumbai Indians finish on 148/7. Second innings starts shortly.",
+      "HI": "Innings break: Mumbai Indians ne 148/7 banaye. Ab CSK ki batting shuru hogi."
+    },
+    "fm_19": {
+      "EN": "Jasprit Bumrah (Captain) starts the 2nd innings with a testing dot ball.",
+      "HI": "Jasprit Bumrah (Captain) ne second innings ki shuruat dot ball se ki."
+    },
+    "fm_20": {
+      "EN": "Jasprit Bumrah BOWLS Ruturaj Gaikwad! (+25 wicket, +8 bowled = 33 base). With your 2x Captain multiplier, you get +66 pts!",
+      "HI": "Jasprit Bumrah ne Ruturaj Gaikwad ko bowled out kiya! (+25 wicket, +8 bowled = 33 base). 2x Captain multiplier ke sath mile +66 pts!"
+    },
+    "fm_21": {
+      "EN": "Jasprit Bumrah beats the bat outside off stump. Dot ball.",
+      "HI": "Jasprit Bumrah ki shandar ball, Ajinkya Rahane beat huye. Dot ball."
+    },
+    "fm_22": {
+      "EN": "Bumrah concedes 0 runs. Dot ball.",
+      "HI": "Bumrah ne ek aur dot ball dali."
+    },
+    "fm_23": {
+      "EN": "Cracking yorker from Bumrah, safely defended. Dot ball.",
+      "HI": "Bumrah ka deadly yorker, dot ball."
+    },
+    "fm_24": {
+      "EN": "Wicket-maiden over by Jasprit Bumrah! Maiden bonus (+12 base) x 2 Captain multiplier = +24 pts!",
+      "HI": "Jasprit Bumrah ka wicket-maiden over! Maiden bonus (+12 base) x 2 Captain multiplier = +24 pts!"
+    },
+    "fm_25": {
+      "EN": "Rachin Ravindra takes a single off Nuwan Thushara. Neither is in your team, so no score change.",
+      "HI": "Rachin Ravindra ne single liya. Dono me se koi aapki team me nahi hai, koi points change nahi."
+    },
+    "fm_26": {
+      "EN": "Bumrah dismisses Dube (+25 x 2 = +50 pts), caught by your Vice-Captain Suryakumar Yadav (+8 x 1.5 = +12 pts)! Total +62 pts!",
+      "HI": "Bumrah ne Dube ka wicket liya (+50 pts), catch liya aapke VC Suryakumar Yadav ne (+12 pts)! Total +62 pts mile!"
+    },
+    "fm_27": {
+      "EN": "Bumrah finishes 2 overs with economy under 5 rpo, unlocking a +6 economy bonus x 2 Captain = +12 pts!",
+      "HI": "Bumrah ne 2 overs me 5 se kam economy rakhi: +6 economy bonus x 2 Captain = +12 pts mile!"
+    },
+    "fm_28": {
+      "EN": "Dewald Brevis was not selected in the match XI (NOT PLAYING) and earns 0 points.",
+      "HI": "Dewald Brevis playing XI me shamil nahi hain (NOT PLAYING) aur unhe 0 points mile hain."
+    }
+  }
+}

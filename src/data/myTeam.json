@@ -1,0 +1,35 @@
+{
+  "teamId": "user_team_1",
+  "teamName": "My T20 Titans",
+  "captain": "mi_bumrah",
+  "viceCaptain": "mi_sky",
+  "players": [
+    "mi_ishan",
+    "mi_rohit",
+    "mi_sky",
+    "mi_brevis",
+    "mi_hardik",
+    "mi_bumrah",
+    "csk_ruturaj",
+    "csk_dube",
+    "csk_jadeja",
+    "csk_pathirana",
+    "csk_tushar"
+  ],
+  "composition": {
+    "MI": 6,
+    "CSK": 5,
+    "roles": {
+      "WK": 1,
+      "BAT": 4,
+      "AR": 3,
+      "BOWL": 3
+    }
+  },
+  "metadata": {
+    "captainRole": "BOWL",
+    "viceCaptainRole": "BAT",
+    "benchedPlayer": "mi_brevis",
+    "rulesVerification": "Legal Dream11 team: 11 players, C!=VC, max 7 per side, compliant with role limits."
+  }
+}

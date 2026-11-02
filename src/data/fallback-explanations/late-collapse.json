@@ -1,0 +1,25 @@
+{
+  "scriptId": "late-collapse",
+  "explanations": {
+    "lc_01": {
+      "EN": "Matheesha Pathirana bowls Suryakumar Yadav with a yorker (+25 wicket, +8 bowled bonus = +33 pts)!",
+      "HI": "Matheesha Pathirana ne Suryakumar Yadav ko yorker par bowled kiya (+33 pts)!"
+    },
+    "lc_02": {
+      "EN": "Tim David is out LBW for 0 (-2 duck penalty). Pathirana earns another wicket (+33 pts).",
+      "HI": "Tim David 0 par LBW out huye (-2 duck penalty). Pathirana ko mile aur +33 pts."
+    },
+    "lc_03": {
+      "EN": "Romario Shepherd negotiates the hat-trick ball safely. Dot ball.",
+      "HI": "Romario Shepherd ne hat-trick ball safely kheli. Dot ball."
+    },
+    "lc_04": {
+      "EN": "Ravindra Jadeja runs out Hardik Pandya with a direct hit (+12 pts fielding bonus)!",
+      "HI": "Ravindra Jadeja ne direct hit se Hardik Pandya ko run out kiya (+12 pts)!"
+    },
+    "lc_05": {
+      "EN": "Piyush Chawla edges behind to MS Dhoni (+8 catch). MI lose 4 wickets in 7 balls!",
+      "HI": "Piyush Chawla out huye, MS Dhoni ne catch pakda (+8 pts). MI ke 4 wickets gire!"
+    }
+  }
+}

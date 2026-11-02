@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "source": "Hand-calculated fixtures for Phase 2 reconciliation verification",
+    "scriptId": "full-match",
+    "rulesVersion": "2026.1-t20",
+    "verifiedOn": "2026-11-02"
+  },
+  "anchors": {
+    "batter": {
+      "playerId": "mi_rohit",
+      "playerName": "Rohit Sharma",
+      "role": "BAT",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1.0,
+      "breakdown": [
+        { "item": "Starting XI", "points": 4 },
+        { "item": "Runs (4)", "points": 4 },
+        { "item": "Boundary Four Bonus (1)", "points": 1 }
+      ],
+      "expectedBase": 9.0,
+      "expectedTotal": 9.0
+    },
+    "bowler": {
+      "playerId": "csk_pathirana",
+      "playerName": "Matheesha Pathirana",
+      "role": "BOWL",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1.0,
+      "breakdown": [
+        { "item": "Starting XI", "points": 4 },
+        { "item": "Wicket (fm_08)", "points": 25 },
+        { "item": "Wicket Bowled (fm_15)", "points": 33 },
+        { "item": "Wicket LBW (fm_16)", "points": 33 },
+        { "item": "3-Wicket Haul Bonus", "points": 4 },
+        { "item": "Economy Bonus (6.0 rpo)", "points": 2 }
+      ],
+      "expectedBase": 101.0,
+      "expectedTotal": 101.0
+    },
+    "fielder": {
+      "playerId": "csk_jadeja",
+      "playerName": "Ravindra Jadeja",
+      "role": "AR",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1.0,
+      "breakdown": [
+        { "item": "Starting XI", "points": 4 },
+        { "item": "Catch 1 (fm_07)", "points": 8 },
+        { "item": "Catch 2 (fm_08)", "points": 8 },
+        { "item": "Direct Hit Run Out (fm_09)", "points": 12 },
+        { "item": "Catch 3 (fm_17)", "points": 8 },
+        { "item": "3-Catch Bonus", "points": 4 }
+      ],
+      "expectedBase": 44.0,
+      "expectedTotal": 44.0
+    },
+    "captain": {
+      "playerId": "mi_bumrah",
+      "playerName": "Jasprit Bumrah",
+      "role": "BOWL",
+      "isCaptain": true,
+      "isViceCaptain": false,
+      "multiplier": 2.0,
+      "breakdown": [
+        { "item": "Starting XI", "points": 4 },
+        { "item": "Wicket Bowled (fm_20)", "points": 33 },
+        { "item": "Maiden Over (fm_24)", "points": 12 },
+        { "item": "Wicket Caught (fm_26)", "points": 25 },
+        { "item": "Economy Bonus (2.0 rpo)", "points": 6 },
+        { "item": "Batting Runs (1)", "points": 1 }
+      ],
+      "expectedBase": 81.0,
+      "expectedTotal": 162.0
+    },
+    "viceCaptain": {
+      "playerId": "mi_sky",
+      "playerName": "Suryakumar Yadav",
+      "role": "BAT",
+      "isCaptain": false,
+      "isViceCaptain": true,
+      "multiplier": 1.5,
+      "breakdown": [
+        { "item": "Starting XI", "points": 4 },
+        { "item": "Runs Scored (52)", "points": 52 },
+        { "item": "Fours Bonus (4)", "points": 4 },
+        { "item": "Sixes Bonus (3)", "points": 6 },
+        { "item": "Half-Century Bonus (50)", "points": 8 },
+        { "item": "Strike Rate Bonus (>170 rpo)", "points": 6 },
+        { "item": "Fielding Catch (fm_26)", "points": 8 }
+      ],
+      "expectedBase": 88.0,
+      "expectedTotal": 132.0
+    }
+  }
+}

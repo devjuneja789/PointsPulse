@@ -1,0 +1,133 @@
+{
+  "id": "late-collapse",
+  "title": "Late Collapse: Rapid Wickets & Risk Flags",
+  "description": "Demonstrates rapid wicket cascades, duck penalties, run-outs, and defensive risk alerts for players yet to bat.",
+  "matchInfo": {
+    "venue": "Wankhede Stadium, Mumbai (Simulated)",
+    "format": "T20",
+    "battingFirst": "MI",
+    "bowlingFirst": "CSK",
+    "playingXI": {
+      "MI": [
+        "mi_rohit",
+        "mi_ishan",
+        "mi_sky",
+        "mi_tilak",
+        "mi_hardik",
+        "mi_tim",
+        "mi_shepherd",
+        "mi_chawla",
+        "mi_bumrah",
+        "mi_coetzee",
+        "mi_thushara"
+      ],
+      "CSK": [
+        "csk_ruturaj",
+        "csk_rachin",
+        "csk_rahane",
+        "csk_dube",
+        "csk_mitchell",
+        "csk_jadeja",
+        "csk_dhoni",
+        "csk_shardul",
+        "csk_tushar",
+        "csk_pathirana",
+        "csk_mustafizur"
+      ]
+    },
+    "benchedPlayers": ["mi_brevis", "csk_chahar"]
+  },
+  "events": [
+    {
+      "id": "lc_01",
+      "innings": 1,
+      "over": 14.1,
+      "ball": 85,
+      "batter": "mi_sky",
+      "nonStriker": "mi_hardik",
+      "bowler": "csk_pathirana",
+      "runs": 0,
+      "extras": 0,
+      "wicket": {
+        "type": "bowled",
+        "playerOut": "mi_sky",
+        "fielders": []
+      },
+      "fielders": [],
+      "scenario": "SCENARIO_WICKET_BOWLED",
+      "note": "Matheesha Pathirana cleans up Suryakumar Yadav with an unplayable 148kph yorker (+25 wicket, +8 bowled = +33 pts)!"
+    },
+    {
+      "id": "lc_02",
+      "innings": 1,
+      "over": 14.2,
+      "ball": 86,
+      "batter": "mi_tim",
+      "nonStriker": "mi_hardik",
+      "bowler": "csk_pathirana",
+      "runs": 0,
+      "extras": 0,
+      "wicket": {
+        "type": "duck_lbw",
+        "playerOut": "mi_tim",
+        "fielders": []
+      },
+      "fielders": [],
+      "scenario": "SCENARIO_7_DUCK_PENALTY",
+      "note": "Tim David trapped LBW for a golden duck! Duck penalty (-2 pts) applied. Pathirana gets +33 pts."
+    },
+    {
+      "id": "lc_03",
+      "innings": 1,
+      "over": 14.3,
+      "ball": 87,
+      "batter": "mi_shepherd",
+      "nonStriker": "mi_hardik",
+      "bowler": "csk_pathirana",
+      "runs": 0,
+      "extras": 0,
+      "wicket": null,
+      "fielders": [],
+      "scenario": "SCENARIO_HAT_TRICK_SURVIVED",
+      "note": "Romario Shepherd negotiates the hat-trick ball. Dot."
+    },
+    {
+      "id": "lc_04",
+      "innings": 1,
+      "over": 15.1,
+      "ball": 91,
+      "batter": "mi_hardik",
+      "nonStriker": "mi_shepherd",
+      "bowler": "csk_tushar",
+      "runs": 0,
+      "extras": 0,
+      "wicket": {
+        "type": "run_out",
+        "playerOut": "mi_hardik",
+        "fielders": ["csk_jadeja"]
+      },
+      "fielders": ["csk_jadeja"],
+      "scenario": "SCENARIO_8_RUN_OUT_DIRECT",
+      "note": "Disaster for MI! Ravindra Jadeja throws down the stumps directly (+12 pts run out bonus)."
+    },
+    {
+      "id": "lc_05",
+      "innings": 1,
+      "over": 15.2,
+      "ball": 92,
+      "batter": "mi_chawla",
+      "nonStriker": "mi_shepherd",
+      "bowler": "csk_tushar",
+      "runs": 0,
+      "extras": 0,
+      "wicket": {
+        "type": "caught",
+        "playerOut": "mi_chawla",
+        "fielders": ["csk_dhoni"]
+      },
+      "fielders": ["csk_dhoni"],
+      "scenario": "SCENARIO_COLLAPSE_CASCADE",
+      "note": "Piyush Chawla edges behind to MS Dhoni (+8 catch). 4 wickets lost in 7 balls! Tailenders 'may not bat'."
+    }
+  ]
+}

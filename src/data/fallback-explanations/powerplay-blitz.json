@@ -1,0 +1,49 @@
+{
+  "scriptId": "powerplay-blitz",
+  "explanations": {
+    "pb_01": {
+      "EN": "Rohit Sharma drives for FOUR (+4 runs, +1 boundary bonus = +5 pts).",
+      "HI": "Rohit Sharma ne cover drive par chauka jada (+5 pts)."
+    },
+    "pb_02": {
+      "EN": "Another boundary for Rohit Sharma (+4 runs, +1 bonus = +5 pts).",
+      "HI": "Rohit Sharma ka ek aur chauka (+5 pts mile)."
+    },
+    "pb_03": {
+      "EN": "Rohit Sharma caught by Ravindra Jadeja (+8 pts catch for Jadeja). Tushar gets +25 pts wicket.",
+      "HI": "Rohit Sharma out huye, Ravindra Jadeja ne catch liya (+8 pts). Tushar ko mile +25 pts."
+    },
+    "pb_04": {
+      "EN": "Suryakumar Yadav scoops for SIX! (6 + 2 bonus = 8 base). 1.5x Vice-Captain = +12 pts!",
+      "HI": "Suryakumar Yadav ne fine leg par chhakka mara! 1.5x Vice-Captain ke sath mile +12 pts!"
+    },
+    "pb_05": {
+      "EN": "Suryakumar Yadav slices for FOUR (4 + 1 bonus = 5 base). 1.5x VC = +7.5 pts!",
+      "HI": "Suryakumar Yadav ne chauka mara. 1.5x Vice-Captain multiplier ke sath jude +7.5 pts!"
+    },
+    "pb_06": {
+      "EN": "Huge SIX by Suryakumar Yadav over midwicket! (8 base x 1.5 VC = +12 pts)!",
+      "HI": "Suryakumar Yadav ka zabardast chhakka! (8 base x 1.5 VC = +12 pts)!"
+    },
+    "pb_07": {
+      "EN": "Lofted FOUR over cover by SKY! (5 base x 1.5 VC = +7.5 pts)!",
+      "HI": "SKY ne extra cover ke upar se chauka mara! (5 base x 1.5 VC = +7.5 pts)!"
+    },
+    "pb_08": {
+      "EN": "SKY crosses 30 runs with a SIX (+4 milestone bonus, x 1.5 VC = +6 pts)!",
+      "HI": "SKY ne chhakke ke sath 30 runs pure kiye (+4 milestone bonus, x 1.5 VC = +6 pts)!"
+    },
+    "pb_09": {
+      "EN": "Driven through point for FOUR by SKY (5 base x 1.5 VC = +7.5 pts)!",
+      "HI": "SKY ne point par chauka mara (5 base x 1.5 VC = +7.5 pts)!"
+    },
+    "pb_10": {
+      "EN": "Suryakumar Yadav smashes his FIFTY off 17 balls! Milestone upgrades to 50 (+8 pts x 1.5 VC = +12 pts)!",
+      "HI": "Suryakumar Yadav ne 17 balls me 50 pura kiya! Milestone bonus upgrade ho kar +12 pts mila!"
+    },
+    "pb_11": {
+      "EN": "SKY crosses 10 balls with strike rate > 250, claiming the maximum +6 Strike Rate Bonus (x 1.5 VC = +9 pts)!",
+      "HI": "SKY ne 10 se jyada balls me 250+ strike rate maintain kiya, jisse +6 SR Bonus x 1.5 VC = +9 pts mile!"
+    }
+  }
+}
