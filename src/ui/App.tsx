@@ -5,6 +5,7 @@ import { ScoreHero } from './components/ScoreHero';
 import { RainBanner } from './components/RainBanner';
 import { MyTeamList } from './components/MyTeamList';
 import { Timeline } from './components/Timeline';
+import { AskTeamBox } from './components/AskTeamBox';
 import { BreakdownDrawer } from './components/BreakdownDrawer';
 import { BottomNav } from './components/BottomNav';
 
@@ -90,10 +91,23 @@ export default function App() {
         lang={lang}
       />
 
-      {/* 6. Reverse Chronological Match Timeline (Catch-up for fans who looked away) */}
-      <Timeline history={history} lang={lang} openDrawer={openDrawer} />
+      {/* 6. Ask About My Team Interactive Q&A */}
+      <AskTeamBox
+        scriptId={scriptId}
+        eventIndex={eventIndex}
+        lang={lang}
+      />
 
-      {/* 7. Itemised Calculation Breakdown Drawer */}
+      {/* 7. Reverse Chronological Match Timeline (With "Catch Me Up" button) */}
+      <Timeline
+        history={history}
+        lang={lang}
+        openDrawer={openDrawer}
+        scriptId={scriptId}
+        eventIndex={eventIndex}
+      />
+
+      {/* 8. Itemised Calculation Breakdown Drawer */}
       <BreakdownDrawer
         isOpen={isDrawerOpen}
         onClose={closeDrawer}
@@ -101,7 +115,7 @@ export default function App() {
         lang={lang}
       />
 
-      {/* 8. Bottom Nav & Prototype Disclaimer */}
+      {/* 9. Bottom Nav & Prototype Disclaimer */}
       <BottomNav lang={lang} />
     </div>
   );

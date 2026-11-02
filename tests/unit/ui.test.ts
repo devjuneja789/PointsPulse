@@ -8,6 +8,7 @@ import { RainBanner } from '../../src/ui/components/RainBanner';
 import { MyTeamList } from '../../src/ui/components/MyTeamList';
 import { BreakdownDrawer } from '../../src/ui/components/BreakdownDrawer';
 import { Timeline } from '../../src/ui/components/Timeline';
+import { AskTeamBox } from '../../src/ui/components/AskTeamBox';
 import { BottomNav } from '../../src/ui/components/BottomNav';
 
 import miSquadJson from '../../src/data/squads/mi.json';
@@ -260,6 +261,8 @@ describe('Phase 3: Product UI Component Tests', () => {
         ],
         lang: 'EN',
         openDrawer: () => {},
+        scriptId: 'full-match',
+        eventIndex: 4,
       })
     );
 
@@ -297,5 +300,23 @@ describe('Phase 3: Product UI Component Tests', () => {
     expect(html).toContain('Unofficial prototype');
     expect(html).toContain('Not affiliated with Dream11, BCCI, IPL');
     expect(html).toContain('My Match');
+  });
+
+  it('renders AskTeamBox with suggested question chips and privacy disclaimer', () => {
+    const html = renderToStaticMarkup(
+      React.createElement(AskTeamBox, {
+        scriptId: 'full-match',
+        eventIndex: 2,
+        lang: 'EN',
+      })
+    );
+
+    expect(html).toContain('Ask About My Team');
+    expect(html).toContain('Who is at risk?');
+    expect(html).toContain('How did Bumrah score?');
+    expect(html).toContain('Catch me up on the match');
+    expect(html).toContain('Demo Q&amp;A grounded on match data');
+    expect(html).toContain('data-testid="ask-input"');
+    expect(html).toContain('data-testid="btn-ask-submit"');
   });
 });

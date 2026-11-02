@@ -5,10 +5,48 @@ interface TimelineProps {
   history: HistoryItem[];
   lang: 'EN' | 'HI';
   openDrawer: (playerId: string) => void;
+  scriptId: string;
+  eventIndex: number;
 }
 
-export const Timeline: React.FC<TimelineProps> = ({ history, lang, openDrawer }) => {
+export const Timeline: React.FC<TimelineProps> = ({
+  history,
+  lang,
+  openDrawer,
+  scriptId,
+  eventIndex,
+}) => {
   const [isExpanded, setIsExpanded] = useState<boolean>(true);
+  const [recap, setRecap] = useState<string | null>(null);
+  const [recapLoading, setRecapLoading] = useState<boolean>(false);
+
+  const fetchRecap = async (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (recapLoading) return;
+    setRecapLoading(true);
+
+    try {
+      const resp = await fetch('/api/ask', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          scriptId,
+          eventIndex,
+          lang,
+          question: '__RECAP__',
+        }),
+      });
+
+      if (resp.ok) {
+        const data = await resp.json();
+        setRecap(data.answer);
+      }
+    } catch {
+      // Ignored
+    } finally {
+      setRecapLoading(false);
+    }
+  };
 
   if (history.length === 0) return null;
 
@@ -31,7 +69,7 @@ export const Timeline: React.FC<TimelineProps> = ({ history, lang, openDrawer })
         }}
         onClick={() => setIsExpanded((prev) => !prev)}
       >
-        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <h2 style={{ fontSize: '13px', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.6px', color: 'var(--text-muted)' }}>
             {lang === 'EN' ? 'Match Timeline' : 'Match Timeline'}
           </h2>
@@ -47,6 +85,24 @@ export const Timeline: React.FC<TimelineProps> = ({ history, lang, openDrawer })
           >
             {history.length}
           </span>
+
+          <button
+            data-testid="btn-catch-me-up"
+            onClick={fetchRecap}
+            disabled={recapLoading}
+            style={{
+              backgroundColor: 'var(--gold-bg)',
+              color: 'var(--gold)',
+              border: '1px solid rgba(245, 183, 0, 0.4)',
+              borderRadius: 'var(--radius-sm)',
+              padding: '2px 8px',
+              fontSize: '10px',
+              fontWeight: 700,
+              cursor: 'pointer',
+            }}
+          >
+            {recapLoading ? '...' : lang === 'EN' ? '⚡ Catch Me Up' : '⚡ Catch Me Up'}
+          </button>
         </div>
 
         <button
@@ -62,6 +118,37 @@ export const Timeline: React.FC<TimelineProps> = ({ history, lang, openDrawer })
           {isExpanded ? (lang === 'EN' ? 'Collapse ▴' : 'Chhupayein ▴') : (lang === 'EN' ? 'Expand ▾' : 'Dekhein ▾')}
         </button>
       </div>
+
+      {/* Catch-Up Recap Banner if generated */}
+      {recap && (
+        <div
+          data-testid="catch-up-recap-box"
+          style={{
+            backgroundColor: 'var(--bg-card)',
+            border: '1px solid var(--gold)',
+            borderRadius: 'var(--radius-md)',
+            padding: '10px 12px',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '4px',
+          }}
+        >
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <span style={{ fontSize: '10px', fontWeight: 800, color: 'var(--gold)' }}>
+              {lang === 'EN' ? 'WHAT YOU MISSED (2-LINE RECAP)' : 'KYA CHHOOTA (RECAP)'}
+            </span>
+            <button
+              onClick={() => setRecap(null)}
+              style={{ background: 'none', border: 'none', color: 'var(--text-subtle)', fontSize: '12px' }}
+            >
+              ✕
+            </button>
+          </div>
+          <p style={{ fontSize: '12.5px', color: 'var(--text-main)', lineHeight: 1.4 }}>
+            {recap}
+          </p>
+        </div>
+      )}
 
       {isExpanded && (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
